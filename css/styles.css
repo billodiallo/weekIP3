@@ -52,6 +52,12 @@ h3.headertm {
 #textarea {
   background-color: transparent;
 }
+#story {
+  display: none;
+}
+
+
+
 /*.design_icon {
   display: none;
 }
