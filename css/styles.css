@@ -52,16 +52,7 @@ h3.headertm {
 #textarea {
   background-color: transparent;
 }
-#sociamedia {
-  color:blank;
-  background-color: white;
-  background: url("../img/c_image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-.design_icon {
+/*.design_icon {
   display: none;
 }
 .dev_icon-showing {
