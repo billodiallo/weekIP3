@@ -43,3 +43,13 @@ $(document).ready(function() {
                       $(".black").hover(function(){
                       $(".8").slideToggle();
                                 })
+
+
+      $(document).ready(function() {
+      $("#blanks form").submit(function() {
+      $(".name").append("blah blah");
+        $(".email").append("blah blah");
+    $(".textarea").append("blah blah");
+    $("#story").show();
+        });
+       });
