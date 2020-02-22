@@ -1,5 +1,5 @@
 
-    # Description 
+    # Create a landing page for a fictional studio called Delani.
 ##Authors
 - [Mamadou Billo Diallo](https://github.com/billodiallo)
 
@@ -17,9 +17,9 @@ To start using this project use the following commands:
 create javascript codes for clickable and hover
 
 -create the same folder weekIP3 in gitHub
--git remote add  https://billodiallo.github.io/weekIP3/
+-git remote add  https://https://github.com/billodiallo/weekIP3
 -git push origin master
-- `git clone https://github.com/billodiallo/Akan-names.git``
+- `git clone https://github.com/billodiallo/weekIP3.git
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 
