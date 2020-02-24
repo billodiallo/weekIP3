@@ -1,21 +1,21 @@
 $(document).ready(function() {
-            $(".clickable").click(function() {
-              $("#design-showing").toggle();
-              $("#design-hidden").toggle();
+            $(".design,#design").click(function() {
+              $("#design").toggle();
+              $(".design").toggle();
             });
           });
 
 $(document).ready(function() {
-            $(".clickable").click(function() {
-            $("#dev_icon-showing").toggle();
-            $("#dev_icon-hidden").toggle();
+            $(".development,#development").click(function() {
+            $(".development").slideToggle();
+            $("#development").slideToggle();
                       });
                     });
 
   $(document).ready(function() {
-              $(".clickable").click(function() {
-              $("#product_icon-showing").toggle();
-              $("#product_icon-hidden").toggle();
+              $(".product,#product").click(function() {
+              $(".product").toggle();
+              $("#product").toggle();
                 });
                 });
 
@@ -50,6 +50,8 @@ $(document).ready(function() {
       $(".name").append("blah blah");
         $(".email").append("blah blah");
     $(".textarea").append("blah blah");
-    $("#story").show();
+
+    console.log("name"+"email"+"thank them for contacting you ");
+
         });
        });
