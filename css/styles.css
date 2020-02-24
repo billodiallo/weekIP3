@@ -49,13 +49,27 @@ h3.headertm {
   background-repeat: no-repeat;
 
 }
+.form-control::placeholder {
+  color: #fff;
+  opacity: .8;
+}
+
 #textarea {
   background-color: transparent;
 }
 #story {
   display: none;
 }
+.col-sm p{
+  display: none;
+}
+.carousel-caption{
+  display: none;
+}
 
+#forinput form input, #forinput form textarea {
+  color: white;
+}
 
 
 /*.design_icon {
