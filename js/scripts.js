@@ -17,8 +17,6 @@ $(document).ready(function() {
               $(".product").toggle();
               $("#product").toggle();
                 });
-                });
-
                 $(".black").hover(function(){
                     $(".1").slideToggle();
                   })
@@ -43,6 +41,9 @@ $(document).ready(function() {
                       $(".black").hover(function(){
                       $(".8").slideToggle();
                                 })
+                });
+
+
 
 
       $(document).ready(function() {
