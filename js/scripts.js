@@ -3,6 +3,18 @@ $(document).ready(function() {
               $("#design").toggle();
               $(".design").toggle();
             });
+
+            //RECIEVING INPUTS
+            $("#submit").click(function(){
+              var name = $("input[id=Name]").val();
+              var email = $("input[id=email]").val();
+              var message = $("textarea[id=textarea][name=message]").val();
+              if(message && email && name !== null){
+                alert("Hello " + name + ", We Have Recieved Your Message");
+              }else{
+                alert("You must fill all the required fields")
+              }
+            })
           });
 
 $(document).ready(function() {
@@ -17,42 +29,29 @@ $(document).ready(function() {
               $(".product").toggle();
               $("#product").toggle();
                 });
+
                 $(".black").hover(function(){
                     $(".1").slideToggle();
                   })
-                  $(".black").hover(function(){
+                  $(".blue").hover(function(){
                       $(".2").slideToggle();
                     })
-                    $(".black").hover(function(){
+                    $(".red").hover(function(){
                         $(".3").slideToggle();
                       })
-                    $(".black").hover(function(){
+                    $(".green").hover(function(){
                     $(".4").slideToggle();
                         })
-                    $(".black").hover(function(){
+                    $(".yellow").hover(function(){
                     $(".5").slideToggle();
                           })
-                    $(".black").hover(function(){
+                    $(".marron").hover(function(){
                     $(".6").slideToggle();
                             })
-                    $(".black").hover(function(){
+                    $(".orange").hover(function(){
                       $(".7").slideToggle();
                               })
-                      $(".black").hover(function(){
+                      $(".light").hover(function(){
                       $(".8").slideToggle();
                                 })
                 });
-
-
-
-
-      $(document).ready(function() {
-      $("#blanks form").submit(function() {
-      $(".name").append("blah blah");
-        $(".email").append("blah blah");
-    $(".textarea").append("blah blah");
-
-    console.log("name"+"email"+"thank them for contacting you ");
-
-        });
-       });
