@@ -57,52 +57,60 @@
 </div>
 <div class="container text-center">
         <h1>PORTFOLIO</h1>
-<div class="row no-gutters" id="portfoliocont">
-  <div class="col-md-3">
-    <img src="img/work4.jpg" alt="" class="black" >
-    <div class="carousel-caption 1">dark</div>
+  <div class="row no-gutters" id="portfoliocont">
+    <div class="col-md-3">
+      <img src="img/work4.jpg" alt="" class="black" >
+      <div class="carousel-caption 1">dark</div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work3.jpg" alt="" class="blue" >
+      <div class="carousel-caption 2">dark</div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work2.jpg" alt="" class="red">
+      <div class="carousel-caption 3">dark </div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work1.jpg" alt="" class="green">
+      <div class="carousel-caption 4">pitch_red</div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work5.jpg" alt="" class="yellow">
+      <div class="carousel-caption 5" > dark</div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work6.jpg" alt="" class="marron">
+      <div class="carousel-caption 6"> dark</div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work7.jpg" alt="" class="orange">
+      <div class="carousel-caption 7">orange</div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/work8.jpg" alt="" class="light">
+      <div class="carousel-caption 8">pitch_red</div>
+    </div>
   </div>
-  <div class="col-md-3">
-    <img src="img/work3.jpg" alt="" class="blue" >
-    <div class="carousel-caption 2">dark</div>
-  </div>
-  <div class="col-md-3">
-    <img src="img/work2.jpg" alt="">
-  </div>
-  <div class="col-md-3">
-    <img src="img/work1.jpg" alt="">
-  </div>
-  <div class="col-md-3">
-    <img src="img/work5.jpg" alt="">
-  </div>
-  <div class="col-md-3">
-    <img src="img/work6.jpg" alt="">
-  </div>
-  <div class="col-md-3">
-    <img src="img/work7.jpg" alt="">
-  </div>
-  <div class="col-md-3">
-    <img src="img/work8.jpg" alt="">
-  </div>
-</div>
 </div>
 
 
 <div class="container text-white" id =forinput >
-  <form class="form-horizontal">
+  <form class="form-horizontal flex-column" onsubmit="return false">
       <h1>CONTACT US</h1>
-        <div class="form-group ">
-          <div class="row flex-row">
-            <textarea name="Name" id="Name" syle="background-color:"transparent" class="form-control" placeholder="Your Name..." wrap="physical"></textarea>
-            <textarea name="message" id="email" style="background-color:"transparent" class="form-control"
-            placeholder="Your Email" wrap="physical"></textarea>
+        <div class="form-group">
+          <div class="row justify-content-center">
+            <input name="Name" id="Name" style="background:transparent" class="form-control col-sm-5 m-1" placeholder="Your Name..." wrap="physical">
+            <input name="message" id="email" style="background-color:transparent" class="m-1 col-sm-5 form-control"
+            placeholder="Your Email" wrap="physical">
         </div>
       </div>
       <div class="form-group">
-        <textarea name="message" id="textarea"rows="8" cols="30" syle="background-color:"transparent" class="form-control"
+        <textarea name="message" id="textarea"rows="8" cols="30" syle="background-color:transparent" class="form-control"
         placeholder="Your text here..." wrap="physical"></textarea>
       </div>
-      <button type="submit" align="right" class="btn btn-success">Submit</button>
+      <div class=" row justify-content-end p-2">
+        <button type="submit" class="btn btn-success" id="submit">Submit</button>
+      </div>
     </form>
     </div>
     <div id="story">
